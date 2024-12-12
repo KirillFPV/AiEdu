@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/main_item"
+            android:title="@string/mail_subheader_title">
+            <menu>
+                <item
+                    android:id="@+id/lm_item"
+                    android:checkable="true"
+                    android:title="@string/lm_menu_name" />
+                <item
+                    android:id="@+id/dt_item"
+                    android:title="@string/dt_menu_name"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/ai_item"
+                    android:title="@string/ai_menu_name"
+                    android:checkable="true"/>
+            </menu>
+        </item>
+    </menu>

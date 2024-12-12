@@ -1,0 +1,55 @@
+[versions]
+agp = "8.6.0"
+kotlin = "1.9.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+smileKotlin = "4.0.0"
+eazegraph = "1.2.5l"
+anychartAndroidVersion = "1.1.5"
+javacv = "1.5.11"
+javacpp = "1.5.11"
+openblas = "0.3.28-1.5.11"
+kotlinStdlib = "2.1.0"
+kotlinDeeplearningTensorflow = "0.6.0-alpha-1"
+tensorflowCorePlatform = "1.0.0"
+tensorflow = "1.15.0"
+tensorflowCoreNative = "1.0.0"
+openblasPlatform = "0.3.28-1.5.11"
+legacySupportV4 = "1.0.0"
+recyclerview = "1.3.2"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+smile-kotlin = { group = "com.github.haifengl", name = "smile-kotlin", version.ref = "smileKotlin" }
+eazegraph = { group = "com.github.blackfizz", name = "eazegraph", version.ref = "eazegraph" }
+github-anychart-android = { group = "com.github.AnyChart", name = "AnyChart-Android", version.ref = "anychartAndroidVersion" }
+javacv = { group = "org.bytedeco", name = "javacv", version.ref = "javacv" }
+javacpp = { group = "org.bytedeco", name = "javacpp", version.ref = "javacpp" }
+openblas = { group = "org.bytedeco", name = "openblas", version.ref = "openblas" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlinStdlib" }
+kotlin-deeplearning-tensorflow = { group = "org.jetbrains.kotlinx", name = "kotlin-deeplearning-tensorflow", version.ref = "kotlinDeeplearningTensorflow" }
+tensorflow-core-platform = { group = "org.tensorflow", name = "tensorflow-core-platform", version.ref = "tensorflowCorePlatform" }
+tensorflow = { group = "org.tensorflow", name = "tensorflow", version.ref = "tensorflow" }
+tensorflow-core-native = { group = "org.tensorflow", name = "tensorflow-core-native", version.ref = "tensorflowCoreNative" }
+openblas-platform = { group = "org.bytedeco", name = "openblas-platform", version.ref = "openblasPlatform" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

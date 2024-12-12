@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="text_margin">8dp</dimen>
+    <dimen name="margin_main_title">16dp</dimen>
+    <dimen name="margin_title1">16dp</dimen>
+    <dimen name="sides_margin">16dp</dimen>
+    <dimen name="main_title_size">22sp</dimen>
+    <dimen name="title1_size">16sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+</resources>
